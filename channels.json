@@ -24,19 +24,19 @@
           "name": "DASH Demo Stream",
           "url": "https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd",
           "type": "mpd",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dash_logo.png"
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.svg"
         },
         {
           "name": "HLS Demo Stream",
           "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
           "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HLS_logo.png"
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.svg"
         },
         {
           "name": "MP4 Demo Video",
           "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4",
           "type": "mp4",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Big_Buck_Bunny_thumbnail_v2.png"
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.svg"
         }
       ]
     }
