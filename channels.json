@@ -16,6 +16,30 @@
           "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/GMA_Pinoy_TV_logo.svg"
         },
         {
+          "name": "TV5 Philippines",
+          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tv5/default/index.mpd",
+          "type": "mpd",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/TV5_%28Philippines%29_logo.svg"
+        },
+        {
+          "name": "GMA Pinoy TV",
+          "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
+          "type": "hls",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/GMA_Pinoy_TV_logo.svg"
+        },
+        {
+          "name": "TV5 Philippines",
+          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tv5/default/index.mpd",
+          "type": "mpd",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/TV5_%28Philippines%29_logo.svg"
+        },
+        {
+          "name": "GMA Pinoy TV",
+          "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
+          "type": "hls",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/GMA_Pinoy_TV_logo.svg"
+        },
+        {
           "name": "ABS-CBN Kapamilya Channel",
           "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
           "type": "hls",
