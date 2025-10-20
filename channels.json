@@ -1,49 +1,32 @@
 {
   "categories": [
     {
-      "name": "Live TV",
+      "name": "Movies",
       "channels": [
         {
-          "name": "TV5 Philippines",
-          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tv5/default/index.mpd",
-          "type": "mpd",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/TV5_%28Philippines%29_logo.svg"
+          "title": "HBO",
+          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.png"
         },
         {
-          "name": "GMA Pinoy TV",
-          "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/GMA_Pinoy_TV_logo.svg"
+          "title": "Cinemax",
+          "url": "https://example.com/cinemax/stream.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cinemax_logo.png"
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "channels": [
+        {
+          "title": "ESPN",
+          "url": "https://example.com/espn/stream.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
         },
         {
-          "name": "TV5 Philippines",
-          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tv5/default/index.mpd",
-          "type": "mpd",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/TV5_%28Philippines%29_logo.svg"
-        },
-        {
-          "name": "GMA Pinoy TV",
-          "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/GMA_Pinoy_TV_logo.svg"
-        },
-        {
-          "name": "TV5 Philippines",
-          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tv5/default/index.mpd",
-          "type": "mpd",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/TV5_%28Philippines%29_logo.svg"
-        },
-        {
-          "name": "GMA Pinoy TV",
-          "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/GMA_Pinoy_TV_logo.svg"
-        },
-        {
-          "name": "ABS-CBN Kapamilya Channel",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Kapamilya_Channel_logo.svg"
+          "title": "Fox Sports",
+          "url": "https://example.com/foxsports/stream.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Fox_Sports_logo.png"
         }
       ]
     },
@@ -51,97 +34,14 @@
       "name": "News",
       "channels": [
         {
-          "name": "CNN Philippines",
-          "url": "https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN_Philippines_logo.svg"
+          "title": "CNN",
+          "url": "https://example.com/cnn/stream.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg"
         },
         {
-          "name": "BBC World News",
-          "url": "https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/BBC_News_2022_%28Alt%29.svg"
-        },
-        {
-          "name": "Al Jazeera English",
-          "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Al_Jazeera_English_logo.svg"
-        }
-      ]
-    },
-    {
-      "name": "Movies",
-      "channels": [
-        {
-          "name": "HBO (ClearKey DRM)",
-          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd",
-          "type": "mpd",
-          "drm": {
-            "type": "clearkey",
-            "keys": {
-              "d47ebabf7a21430b83a8c4b82d9ef6b1": "54c213b2b5f885f1e0290ee4131d425b"
-            }
-          },
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.svg"
-        },
-        {
-          "name": "Cinemax",
-          "url": "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
-          "type": "mpd",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cinemax_logo_2016.svg"
-        },
-        {
-          "name": "Paramount Movies",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Paramount_Network_logo_2022.svg"
-        }
-      ]
-    },
-    {
-      "name": "Kids",
-      "channels": [
-        {
-          "name": "Cartoon Network",
-          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01476-cartoonnetwork-eur/playlist.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg"
-        },
-        {
-          "name": "Nickelodeon",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2023_logo.svg"
-        },
-        {
-          "name": "Disney Channel",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Disney_Channel_logo_2019.svg"
-        }
-      ]
-    },
-    {
-      "name": "Demo Streams",
-      "channels": [
-        {
-          "name": "DASH Demo Stream",
-          "url": "https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd",
-          "type": "mpd",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Dash_logo.png"
-        },
-        {
-          "name": "HLS Demo Stream",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-          "type": "hls",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/HLS_logo.svg"
-        },
-        {
-          "name": "MP4 Demo Video",
-          "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4",
-          "type": "mp4",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Big_Buck_Bunny_thumbnail_vlc.png"
+          "title": "BBC News",
+          "url": "https://example.com/bbc/stream.m3u8",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bc/BBC_News_2022_%28Alt%29.svg"
         }
       ]
     }
