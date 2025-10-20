@@ -4,7 +4,7 @@
     { "name": "Sports", "m3u_url": "https://iptv-org.github.io/iptv/categories/sports.m3u" },
     { "name": "News", "m3u_url": "https://iptv-org.github.io/iptv/categories/news.m3u" },
     { "name": "Movies", "m3u_url": "https://iptv-org.github.io/iptv/categories/movies.m3u" },
-    { "name": "Music", "m3u_url": "https://example.com/music.m3u" },
+    { "name": "Music", "m3u_url": "https://iptv-org.github.io/iptv/categories/music.m3u" },
     { "name": "Live TV", "m3u_url": "https://iptv-org.github.io/iptv/categories/music.m3u" }
   ]
 }
