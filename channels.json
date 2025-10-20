@@ -1,49 +1,10 @@
 {
   "categories": [
-    {
-      "name": "Movies",
-      "channels": [
-        {
-          "title": "HBO",
-          "url": "https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.m3u8",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/d/de/HBO_logo.png"
-        },
-        {
-          "title": "Cinemax",
-          "url": "https://example.com/cinemax/stream.m3u8",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cinemax_logo.png"
-        }
-      ]
-    },
-    {
-      "name": "Sports",
-      "channels": [
-        {
-          "title": "ESPN",
-          "url": "https://example.com/espn/stream.m3u8",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg"
-        },
-        {
-          "title": "Fox Sports",
-          "url": "https://example.com/foxsports/stream.m3u8",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Fox_Sports_logo.png"
-        }
-      ]
-    },
-    {
-      "name": "News",
-      "channels": [
-        {
-          "title": "CNN",
-          "url": "https://example.com/cnn/stream.m3u8",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg"
-        },
-        {
-          "title": "BBC News",
-          "url": "https://example.com/bbc/stream.m3u8",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bc/BBC_News_2022_%28Alt%29.svg"
-        }
-      ]
-    }
+    { "name": "Animation", "m3u_url": "	https://iptv-org.github.io/iptv/categories/animation.m3u" },
+    { "name": "Sports", "m3u_url": "https://iptv-org.github.io/iptv/categories/sports.m3u" },
+    { "name": "News", "m3u_url": "https://iptv-org.github.io/iptv/categories/news.m3u" },
+    { "name": "Movies", "m3u_url": "https://iptv-org.github.io/iptv/categories/movies.m3u" },
+    { "name": "Music", "m3u_url": "https://example.com/music.m3u" },
+    { "name": "Live TV", "m3u_url": "https://iptv-org.github.io/iptv/categories/music.m3u" }
   ]
 }
