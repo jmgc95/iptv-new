@@ -5,6 +5,6 @@
     { "name": "News", "m3u_url": "https://iptv-org.github.io/iptv/categories/news.m3u" },
     { "name": "Movies", "m3u_url": "https://iptv-org.github.io/iptv/categories/movies.m3u" },
     { "name": "Music", "m3u_url": "https://iptv-org.github.io/iptv/categories/music.m3u" },
-    { "name": "Live TV", "m3u_url": "https://iptv-org.github.io/iptv/categories/music.m3u" }
+    { "name": "Live TV", "m3u_url": "https://raw.githubusercontent.com/jmgc95/iptv-new/refs/heads/main/jmgctv.m3u" }
   ]
 }
